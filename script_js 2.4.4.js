@@ -3,7 +3,7 @@ const calculateBonus = (a, b) => {
     const sum = a + b;
     debugger;//посчитал сумму
     sum > 50 ? (bonus = 50) : (bonus = sum);
-    debugger;// определил бонус, с нашими данными бонус нам не положен)
+    debugger;// определил бонус
     return bonus;
     };
 
